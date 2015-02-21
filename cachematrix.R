@@ -7,7 +7,7 @@ makeCacheMatrix <- function(x = numeric()) {
   # store a matrix
   setMatrix <- function(newValue) {
     x <<- newValue
-    # since the matrix is assigned a new value, flush the cache
+    # since the matrix is assigned a new value, flush the cache.....
     cache <<- NULL
   }
   
